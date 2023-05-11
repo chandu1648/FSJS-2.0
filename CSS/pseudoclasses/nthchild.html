@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nth child</title>
+    <style>
+        ul>li:nth-child(2n+1){
+            background-color: rgb(19, 237, 237);
+            border: 2px solid #020202;
+            height: 20px;
+            width: 70px;
+        }
+        ol>li:nth-child(2n){
+            color: #ffffff;
+            background-color: #343434;
+            height: 20px;
+            width: 70px;
+            border: 1px solid #000;
+        }
+        /* we also use even and odd with those above ones */
+    </style>
+</head>
+<body>
+    <div>
+        <p>odd or nthchild(2n+1)</p>
+     <ul>
+        <li>how</li>
+        <li>what</li>
+        <li>where</li>
+        <li>when</li>
+        <li>who</li>
+        <li>yeah</li>
+        <li>some</li>
+        <li>one</li>
+        <li>help</li>
+        <li>me</li>
+     </ul>
+     <p>even or nthchild(2n)</p>
+     <ol>
+        <li>some</li>
+        <li>one</li>
+        <li>come</li>
+        <li>here</li>
+        <li>and</li>
+        <li>help</li>
+        <li>me</li>
+        <li>how</li>
+        <li>it</li>
+        <li>happened</li>
+     </ol>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-template</title>
+    <style>
+        .container1{
+            border: 0.5rem solid #000;
+            height: 80vh;
+            width:80vh;
+            margin-left: 2.5rem;
+            display: grid;
+            /* justify-content:space-between; */
+            place-content: center;
+        }
+        .container{
+            height: 60vh;
+            width:60vh;
+            display: grid;
+            /* grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: repeat(5,1fr); */
+            grid-template:1fr 1fr 1fr 1fr 1fr /1fr 1fr 1fr 1fr ;
+            gap: 10px 10px;
+            place-items: center;
+        }
+        .item{
+            height: 3rem;
+            width: 3rem;
+            background-color: #f21743;
+            color: #ffffff;
+            margin: 0.5rem;
+            border-radius: 0.8rem;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Justify content</h1>
+    <div class="container1">
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes </title>
+    <style>
+        .it::before{
+            content: "";
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            background-color: #665866;
+            color:  #ffffff;
+        }
+        .ti::after{
+            content: "";
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            background-color: #d3d324;
+            color:  #ffffff;
+        }
+        .sub{
+            background-color: #326564;
+            color: #ffffff;
+            border: 2 2 2;
+            border-radius: 4px;
+        }
+        .sub:hover{
+            background-color: #32e8eb;
+            color: #326564;
+        }
+       
+        .link:visited{
+            color: #ec0057;
+        }
+        .link:hover{
+            background-color: rgb(203, 42, 42);
+            color: #32e8eb;
+        }
+        .link:link{
+            color: #030303;
+        }
+        .in:focus{
+            background-color: #323566;
+            opacity: 40%;
+            color: #ffffff;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>pseudo classes</h1>
+    </header>
+    <Nav>
+        <span> <b>social</b></span>
+        <span><b class="it">science</b></span>
+        <span><b class="ti">maths</b></span>
+        
+    </Nav>
+    <article>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A illum suscipit animi voluptatum? Asperiores delectus voluptas deleniti saepe eveniet voluptatem pariatur nam illum voluptatum? Dolores obcaecati quisquam adipisci amet expedita?</p>
+    </article>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong> Dolores magnam</strong> architecto sit reprehenderit possimus, nisi laudantium veniam sed rerum id aliquid dolor totam tenetur et, ut debitis rem provident ex.
+        </p>
+    </div>
+     <button name="submit"  class="sub">submit</button><br>
+
+     <a class="link" href="http://google.com">google</a>
+
+     <form action="">
+        <input class="in" type="text">name
+        <input class="in" type="password">password
+     </form>
+
+</body>
+</html>

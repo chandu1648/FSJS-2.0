@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relative</title>
+    <style>
+        .rel{
+            border: 2px solid black;
+            height: 40px;
+            width: 40px;
+            border-radius: 8px;
+            margin: 10px;
+            background-color: #369595;
+            text-align: center;
+            padding: 20px 10px 0px 10px;
+            color: #fff125;
+        }
+        .sou{
+            position: absolute;
+            left:65px;
+            top: 55px;
+            background-color: #253685;
+        }
+        div{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Absolute</h1>  
+    <div>
+        <div class="rel">one</div>
+        <div class="rel">two</div>
+        <div class="rel sou">three</div>
+        <div class="rel">four</div>
+    </div> 
+
+</body>
+</html>
