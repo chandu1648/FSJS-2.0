@@ -1,0 +1,125 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Orbitron', sans-serif; */
+/* nav-bar */
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+li{
+    display: inline-block;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: larger;
+}
+li:hover{
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    border-bottom-width: 3px;
+    font-weight:700;
+}
+ul{
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.button-group{
+    display:inline-flex;
+    justify-content:space-between;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+.nav-button{
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    padding: 5px 40px 5px 40px;
+    border-radius: 10px;
+    font-size: larger;
+    margin-left: 15px;
+}
+ /* image */
+.star{
+    position: absolute;
+    bottom: 40px;
+    left: 44%;  
+}
+.hero-container>.star:nth-child(2n+1){
+    position: absolute;
+    top: 140px;
+    left:87%;
+}
+.globe{
+    position: absolute;
+    top: 120px;
+    left:50%;
+}
+.square{
+    position: absolute;
+    bottom: 195px;
+    left: 11%;
+    height: 250px;
+    width: 250px;
+    z-index: -1;
+}
+.hero-container>div>img{
+    height: 480px;
+    width: 380px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+ /* hero-containerright */
+ .hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+ }
+ .hero-container-right{
+    margin-right: 100px;
+    text-align: center;
+    margin-top: 4em;
+ }
+ .hero-heading{
+    font-size: 3.5em;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 60px;
+ }
+ .hero-description{
+    max-width: 80ch;
+    margin-left: 10%;
+    margin-right: 5%; 
+    font-family: 'Poppins', sans-serif;
+ }
+ .button-email{
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 30px 5px 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: large;
+ }
+ .button-join{
+    border: 2px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: large;
+    margin-left: 10px;
+ }
+ .hero-container-right>div>button{
+    margin-top: 50px;
+ }
+ .contact-heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 100px;
+ }
+ .icons{
+    display: flex;
+    justify-content: space-around;
+    max-width: 280px;
+    margin-left: 16em;
+ }

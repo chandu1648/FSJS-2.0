@@ -1,0 +1,68 @@
+body{
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+}
+.navbar{
+    background-color: #000000;
+    color: #ffffff;
+    height: 95px;
+    width: auto;
+}
+.list-item{
+    display:inline-block;
+    margin:10px 10px 10px 40px ;
+    font-family: 'Poppins', sans-serif;
+}
+.list{
+   position: relative;
+   right: 10px;
+   top:-150px;
+   left: 250px;
+
+   border-left:  1px solid #ffffff;
+}
+.hero-heading{
+    font-size:5rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    max-width: 20ch;
+    position: relative;
+    top: 30px;
+    right: 10px;
+    bottom: 400px;
+    left: 350px;
+}
+.hero-description{
+    font-size: 1.85rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    position: relative;
+    left: 450px;
+    top: -35px;
+}
+.button-small{
+    background-color:#BF08C1;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -245px;
+    right:70px;
+    left: 1250px;
+}
+.button-large{
+    background-color:#BF08C1;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 600px;
+    top: -35px;
+}
+section>nav>div{
+ padding: 20px 10px 20px 60px;
+}
